@@ -4,7 +4,7 @@ const { Pool } = require("pg"); // Client PostgreSQL
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Database connection configuration
+// Database connectio
 const pool = new Pool({
   host: process.env.DB_HOST || "db",
   port: process.env.DB_PORT || 5432,
